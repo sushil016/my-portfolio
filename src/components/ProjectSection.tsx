@@ -18,29 +18,33 @@ const projects = [
     name: "Aspirant OP",
     title: "NoteWrite : An Ed-tech Website",
     description:
-      "Developed a comprehensive ed-tech platform using the MERN (MongoDB, Express.js, React, Node.js) stack.",
+      " A web application Platform managing 15+ engineering courses across al domains",
     description2:
-      "The website features interactive course modules, real-time progress tracking, and a user-friendly dashboard for both students and instructors.",
+      `Implemented a user-friendly interface to facilitate easy navigation and automate content management system for educational
+        resources and study materials. `,
     description3:
       " Implemented secure user authentication, integrated payment gateway for course purchases, and optimized performance for seamless learning experiences across devices.",
-    description4: "This project is still in development....!",
+    description4: "this project is build while learning all the tech stack ",
     tech: "JavaScript , TypeScript , Next.js , TailwindCSS , MongoDB , Node.js , Express.js , JWT , Docker",
     image: Anime,
     category: "web",
     color: "#1E1E2E",
     githubLink: "https://github.com/sushil016/notewrite-edtech",
-    liveLink: "https://notewrite-edtech.vercel.app/"
+    liveLink: "https://notewrite.sushilsahani.tech/"
   },
   {
     id: 2,
     name: "Aspirant OP",
-    title: "Live loction staying app",
+    title: " getChecked - Realtime Location Tracking App",
     description:
-      "Created a mobile application using React Native for precise location tracking of employees during work hours",
+      `Location Tracking for Users: Users can pin a location, set a radius, and track their movements within the area. The app provides detailed
+ insights on where they went and the time spent in different zones.`,
     description2:
-      " Implemented a geofencing system to verify user presence within a specified office radius.",
+      ` Attendance Management for Organizations: Employees can check in and out manualy at predefined locations set by admins. A map API
+ ensures accurate tracking of their entry and exit times.`,
     description3:
-      " Developed a scalable backend with Node.js and Express.js, utilizing PostgreSQL for efficient data management",
+     `AI-Powered Weekly Reports: Combines manual and system check-in/out data to generate automated weekly reports, offering detailed
+ insights into staff attendance and time management.`,
     description4:
       "Integrated real-time location updates, custom notification systems, and secure authentication to ensure accurate attendance tracking and enhance workforce management.",
     tech: "React Native , TypeScript , Expo , TailwindCSS , PosrgreSQL, Node.js , Express.js",
@@ -53,22 +57,26 @@ const projects = [
   {
     id: 3,
     name: "Aspirant OP",
-    title: "Paytm Clone",
-    description: `Developed a simplified Paytm clone, replicating core functionalities of the popular digital payment platform`,
-    description2: `Utilized React for the frontend, ensuring a responsive and user-friendly interface, and integrated secure payment gateways for transactions`,
-    description3: `Implemented features like wallet management, transaction history, and user authentication to enhance user experience and security`,
-    description4: `This project is still in development....!`,
+    title: "Soluition ai",
+    description: `Developed an AI-driven personalized learning platform that recommends tailored question sets and provides actionable
+ feedback by analyzing user behavior, performance metrics, and learning goals using Scikit-learn and co laborative filtering
+ techniques.`,
+    description2: ` Integrated machine learning models into a Next.js fu l-stack application, leveraging PostgreSQL and Prisma ORM for data
+ management, enabling adaptive learning experiences and real-time progress tracking.`,
+    description3: `Implemented a scalable backend API to serve ML-driven recommendations, enhancing user engagement by 30% through
+ adaptive learning insights and personalized study plans.`,
+    description4: ``,
     tech: "JavaScript , TypeScript , React.js , TailwindCSS , MongoDB , Node.js , Express.js , JWT , Docker",
     image: "",
     category: "web",
     color: "#1E1E2E",
-    githubLink: "https://github.com/sushil016/paytm-backend",
-    liveLink: ""
+    githubLink: "https://github.com/sushil016/QuizSol-bot",
+    liveLink: "https://solutionai.sushilsahani.tech/"
   },
   {
     id: 4,
     name: "Aspirant OP",
-    title: "sushil.tech : Portfolio Website",
+    title: "sushilsahani.tech : Portfolio Website",
     description:
       "Designed and developed a dynamic, responsive portfolio website using Next.js, showcasing proficiency in modern React frameworks.",
     description2:
@@ -82,7 +90,7 @@ const projects = [
     category: "web",
     color: "#1E1E2E",
     githubLink: "https://github.com/sushil016/portfolio.sushil",
-    liveLink: "https://sushilsahani.vercel.app"
+    liveLink: "https://sushilsahani.tech/"
   },
 ];
 
@@ -134,8 +142,8 @@ const ProjectCard = ({ project }: { project: any }) => {
         // rotateX: rotate,
         // opacity,
       }}
-      whileTap={{ scale: 0.75 }}
-      transition={{ duration: 0.4 }}
+      // whileTap={{ scale: 0.75 }}
+      // transition={{ duration: 0.4 }}
       whileHover={{ boxShadow: "0px 20px 30px rgba(75, 0, 130, 0.6), 0 10px 15px rgba(255, 165, 0, 0.4)" }}
       >
       <motion.div
